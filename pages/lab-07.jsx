@@ -83,7 +83,8 @@ export default function Home() {
   return (
     <div className="bg-light">
       <Navbar />
-      <div style={{backgroundColor: selTheme.background }}>
+      <hr />
+      <div style={{ backgroundColor: selTheme.background }}>
         {/* Entire App container (required for centering) */}
 
         <div style={{ maxWidth: "800px" }} className="mx-auto">
@@ -102,7 +103,8 @@ export default function Home() {
                 placeholder="insert todo here..."
                 onKeyUp={handlerInput}
               />
-              <button className="btn btn-dark " onClick={toggleTheme}>
+
+              <button className="btn btn-dark button " onClick={toggleTheme}>
                 {selTheme.name === "light" && <IconSunHigh />}
                 {selTheme.name === "dark" && <IconMoon />}
               </button>
@@ -133,7 +135,7 @@ export default function Home() {
             </p>
             {/* Made by section */}
             <p className="text-center mt-3 text-muted fst-italic">
-              made by Chonlanan Thongthai 640610625
+              made by Thian Suwannakul 620610176
             </p>
           </ThemeContext.Provider>
         </div>
