@@ -1,16 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,100;1,200&display=swap");
+
 html,
 body {
-  padding: 0;
+  padding: 4;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+  background-color: rgb(146, 141, 141) ;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.intro {
+  display: flex;
+  padding: 2rem;
+  margin-left: 4rem;
+}
+
+.bg-light {
+  padding: 50px;
+  border-radius: 25px;
+  margin-top:5rem;
+  margin-inline:5rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(163, 109, 37);
+}
+
+a:hover {
+  color: rgb(65, 43, 15);
+}
+
+.images img {
+  height: 200px;
+  display: inline-block;
+}
+
+.fa {
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.home_intro {
+  width: 550px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.home_intro .btn {
+  font-family: "Montserrat";
+  font-size: 25px;
+  margin-top: 2rem;
+}
+.contact {
+  font-size: 20px;
+  text-align: left;
+}
+
+.profile_container {
+  display: flex;
+  margin-top: 4rem;
+  justify-content: center;
+}
+
+.contact_info {
+  display: flex;
+  font-family: "Montserrat";
+  font-size: 50px;
+  justify-content: center;
+  margin-block: 2rem;
+}
+
+.social_media {
+  margin-block: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.bg-light .social_media a {
+  display: block;
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  border-radius: 50%;
+
+  background-color: wheat;
+}
+
+.bg-light .social_media a:hover {
+  background-color: rgb(163, 109, 37);
+}
+
+.card {
+  display: inline-block;
+  width: 22rem;
+  height: 250px;
+  margin-left: 6rem;
+  margin-top: 4rem;
+}
+
+.card .card-body {
+  background-color: wheat;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.manymore {
+  display: inline-flex;
+  margin-left: 4rem;
+  font-family: "Montserrat";
+  background-color: wheat;
+  border-radius: 10%;
+}
+
+.project_exp {
+  margin-top: 2rem;
+  font-family: "Montserrat";
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.tel {
+  font-family: "Montserrat";
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.skills {
+  font-family: "Montserrat";
+  font-size: 30px;
+  display: flex;
+  margin: 4rem;
+  text-decoration: underline;
+}
+
+.images {
+  margin: 4rem;
 }
